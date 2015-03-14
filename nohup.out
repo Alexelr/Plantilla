@@ -1,0 +1,30 @@
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(sublime_text:3603): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-scrolled-window-placement after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-select-on-focus after class was initialised
+
+(sublime_text:5047): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-password-hint-timeout after class was initialised

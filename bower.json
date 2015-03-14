@@ -1,0 +1,7 @@
+{
+	"name":"PruebaMeanDEsdeCero",
+	"version":"0.1",
+	"dependencies":{
+		"angular":"latest"
+	}
+}

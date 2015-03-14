@@ -1,0 +1,22 @@
+{
+  "name": "PruebaMeanDEsdeCero",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1",
+    "mongoose": "~3.8.24"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "supertest": "^0.15.0"
+  },
+  "author": "Alejandro Rodriguez Vazquez",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  }
+}

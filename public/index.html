@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="ToDoList">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Introducción a MEAN</title>
+
+  </head>
+  <body ng-controller="MainCtrl">
+    <h1>ToDo List App</h1>
+
+    <div>
+      <form ng-submit="newTodo()">
+        <input type="text" placeholder="¿Algo que quieras agregar?" ng-model="nTodo.title" />
+      </form>
+      <ul>
+        <li ng-repeat="todo in todos">
+          <span ng-hide="updateMode">{{todo.title}}</span>
+          <form ng-show="updateMode" ng-submit="updateTodo(todo)">
+            <input type="text" placeholder="Actualizalo" ng-model="todo.title" />
+          </form>
+          - <a href='' ng-click="deleteTodo(todo._id)">Eliminar</a> - <a href='' ng-click="updateMode=true" ng-hide="updateMode">Modificar</a> <a href='' ng-click="updateMode=false" ng-show="updateMode">Cancelar</a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="/js/vendor/angular/angular.min.js"></script>
+    <script src="/js/app/app.js"></script>
+    <script src="/js/app/controllers.js"></script>
+  </body>
+</html>
