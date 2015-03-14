@@ -5,7 +5,7 @@ Api para implementacion de MEAN con mocha
 
 ```shell
   $ git clone https://github.com/Alexelr/Plantilla
-  $ cd anotamela-plantilla
+  $ cd plantilla
   $ npm install
 ```
 
